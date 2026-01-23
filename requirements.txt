@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+sqlalchemy
+python-jose
+passlib[bcrypt]
+python-dotenv
+google-api-python-client
+google-auth
+google-auth-oauthlib
+twilio
+pandas
+openpyxl
