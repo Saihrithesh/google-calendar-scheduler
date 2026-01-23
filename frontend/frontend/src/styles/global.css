@@ -1,0 +1,86 @@
+:root {
+  --primary: #4f46e5;
+  --primary-dark: #4338ca;
+  --secondary: #22c55e;
+  --danger: #ef4444;
+
+  --bg: #f8fafc;
+  --card-bg: #ffffff;
+  --text: #0f172a;
+  --muted: #64748b;
+
+  --border: #e5e7eb;
+  --radius: 14px;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: linear-gradient(180deg, #f8fafc, #eef2ff);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* LANDING */
+.landing-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing-hero {
+  text-align: center;
+  padding: 100px 20px 60px;
+  max-width: 800px;
+}
+
+.landing-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.landing-subtitle {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  margin-bottom: 32px;
+}
+
+.landing-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.landing-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  padding: 40px;
+  max-width: 1100px;
+  width: 100%;
+}
+
+.feature-card {
+  text-align: center;
+}
+
+.landing-footer {
+  margin-top: auto;
+  padding: 20px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
